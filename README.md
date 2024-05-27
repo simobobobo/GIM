@@ -33,7 +33,7 @@ Corso di Grafica in movimento, SUPSI, 2024
 
 ### Esercizio 3A
 
-[Orologio](https://simobobobo.github.io/GIM/Esercizio_3A/Orologio_brockmann/index.html)
+[Orologio Brockmann](https://simobobobo.github.io/GIM/Esercizio_3A/Orologio_brockmann/index.html)
 
 [Orologio digitale](https://simobobobo.github.io/GIM/Esercizio_3A/Orologio_digitale/index.html)
 

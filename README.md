@@ -23,5 +23,17 @@ Corso di Grafica in movimento, SUPSI, 2024
 [Spostamento 3](https://simobobobo.github.io/GIM/Esercizio_1A/spostamento_3.html)
 
 
+
+
+### Esercizio 1B
+
 [Dittico](https://simobobobo.github.io/GIM/Esercizio_1B/indexA.html)
+
+
+
+### Esercizio 3A
+
+[Orologio ](https://simobobobo.github.io/GIM/Esercizio_3A/index.html)
+[Orologio digitale](https://simobobobo.github.io/GIM/Esercizio_3A/index.html)
+[Orologio lancette](https://simobobobo.github.io/GIM/Esercizio_3A/index.html)
 

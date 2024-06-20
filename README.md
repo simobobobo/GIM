@@ -25,6 +25,10 @@ Corso di Grafica in movimento, SUPSI, 2024
 [Dittico](https://simobobobo.github.io/GIM/Esercizio_1B/indexA.html)
 
 
+### Esercizio 1C
+
+[Analisi del testo](https://simobobobo.github.io/GIM/Esercizio_1C/README.md)
+
 ### Esercizio 2
 
 [Parola](https://simobobobo.github.io/GIM/Esercizio_2/Parola.html)

@@ -23,12 +23,14 @@ Corso di Grafica in movimento, SUPSI, 2024
 [Spostamento 3](https://simobobobo.github.io/GIM/Esercizio_1A/spostamento_3.html)
 
 
-
-
 ### Esercizio 1B
 
 [Dittico](https://simobobobo.github.io/GIM/Esercizio_1B/indexA.html)
 
+
+### Esercizio 2
+
+[Parola](https://simobobobo.github.io/GIM/Esercizio_2/Parola.html)
 
 
 ### Esercizio 3A

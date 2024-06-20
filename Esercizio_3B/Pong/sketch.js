@@ -8,7 +8,7 @@ function setup() {
 	posizioneX = width/2
 	posizioneY = height/2
 
-	velocitaX = 10
+	velocitaX = 9
 	velocitaY = 5
 
 

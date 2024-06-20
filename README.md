@@ -41,3 +41,8 @@ Corso di Grafica in movimento, SUPSI, 2024
 
 [Orologio lancette](https://simobobobo.github.io/GIM/Esercizio_3A/Orologio_lancette/index.html)
 
+
+### Esercizio 3B
+[Pong](https://simobobobo.github.io/GIM/Esercizio_3B/Pong/index.html)
+
+

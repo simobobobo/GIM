@@ -31,7 +31,7 @@ Corso di Grafica in movimento, SUPSI, 2024
 
 ### Esercizio 2
 
-[Parola](https://simobobobo.github.io/GIM/Esercizio_2/parola.html)
+[Parola](https://simobobobo.github.io/GIM/Esercizio_2/Parola.html)
 
 
 ### Esercizio 3A

@@ -48,4 +48,6 @@ Corso di Grafica in movimento, SUPSI, 2024
 
 [Pioggia](https://simobobobo.github.io/GIM/Esercizio_3B/Pioggia/index.html)
 
+[Neve](https://simobobobo.github.io/GIM/Esercizio_3B/Neve/index.html)
+
 

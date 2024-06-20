@@ -1,48 +1,44 @@
-let posizioneX
-let posizioneY
-
+let drops = [];
 
 function setup() {
-	createCanvas(windowWidth, windowHeight)
-
-	posizioneX = width/2
-	posizioneY = height/2
-
-	velocitaX = 9
-	velocitaY = 5
-
-
+  createCanvas(windowWidth, windowHeight);
+  for (let i = 0; i < 500; i++) {
+    drops.push(new Drop());
+  }
 }
-
-function windowResized() {
-	resizeCanvas(windowWidth, windowHeight)
-}
-
 
 function draw() {
-	background(255)
+  background(0);
+  for (let drop of drops) {
+    drop.fall();
+    drop.show();
+  }
+}
 
-	posizioneX = posizioneX + velocitaX
-	posizioneY = posizioneY + velocitaY
+class Drop {
+  constructor() {
+    this.x = random(width);
+    this.y = random(-500, -50);
+    this.z = random(0, 20);
+    this.len = map(this.z, 0, 20, 10, 20);
+    this.yspeed = map(this.z, 0, 20, 1, 20);
+  }
 
-	if(posizioneX >= width) {
-		velocitaX = -velocitaX
-	}
+  fall() {
+    this.y = this.y + this.yspeed;
+    let grav = map(this.z, 0, 20, 0, 0.2);
+    this.yspeed = this.yspeed + grav;
 
-	if(posizioneX < 0) {
-		velocitaX = -velocitaX
-	}
+    if (this.y > height) {
+      this.y = random(-200, -100);
+      this.yspeed = map(this.z, 0, 20, 4, 10);
+    }
+  }
 
-	if(posizioneY >= height) {
-		velocitaY = -velocitaY
-	}
-
-	if(posizioneY < 0) {
-		velocitaY = -velocitaY
-	}
-
-
-
-	circle(posizioneX, posizioneY, 100)
-
+  show() {
+    let thick = map(this.z, 0, 20, 1, 3);
+    strokeWeight(thick);
+    stroke(255);
+    line(this.x, this.y, this.x, this.y + this.len);
+  }
 }
